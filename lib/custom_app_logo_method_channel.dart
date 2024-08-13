@@ -7,6 +7,8 @@ import 'custom_app_logo_platform_interface.dart';
 class MethodChannelCustomAppLogo extends CustomAppLogoPlatform {
   static const MethodChannel _channel = MethodChannel('my_plugin');
 
+  /// [getActivityInfo] gets the activities and it aliases from the manifest file
+
   static Future<ActivitiesInfoResult> getActivityInfo() async {
     try {
       final Map<Object?, Object?> result = await _channel.invokeMethod('getActivityInfo');
@@ -18,6 +20,7 @@ class MethodChannelCustomAppLogo extends CustomAppLogoPlatform {
     }
   }
 
+  /// [changeAppLogo] takes the [activityName] to change the current activity to
   static Future<bool> changeAppLogo({required String activityName}) async {
     try {
       await _channel.invokeMethod("changeAppLogo",{"activityName" : activityName});

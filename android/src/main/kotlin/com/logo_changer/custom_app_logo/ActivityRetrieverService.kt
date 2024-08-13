@@ -32,7 +32,7 @@ class ActivityRetrieverService {
                 }
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            throw e
+            print(e.message)
         }
 
         return mapOf(

@@ -3,8 +3,9 @@
             android:label="custom_app_logo_example"
             android:name="${applicationName}">
         <activity
-            android:name=".MainActivity"
-             android:enabled="true"
+                android:icon="@drawable/ic_yellow"
+                android:name=".MainActivity"
+                android:enabled="true"
                 android:exported="true"
                 android:launchMode="singleTop"
                 android:theme="@style/LaunchTheme"
@@ -18,11 +19,11 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity-alias
-            android:enabled="true"
+                android:enabled="true"
                 android:icon="@drawable/ic_green"
                 android:exported="true"
                 android:targetActivity=".MainActivity" android:name=".SecondActivity">
@@ -32,30 +33,20 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:enabled="true"
-            android:icon="@drawable/ic_blue"
-            android:exported="true"
-            android:targetActivity=".MainActivity" android:name=".ThirdActivity">
+                android:enabled="true"
+                android:icon="@drawable/ic_blue"
+                android:exported="true"
+                android:targetActivity=".MainActivity" android:name=".ThirdActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:enabled="true"
-            android:icon="@drawable/ic_orange"
-            android:exported="true"
-            android:targetActivity=".MainActivity" android:name=".ForthActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity-alias>
-        <activity-alias
-            android:enabled="true"
-            android:icon="@drawable/ic_yellow"
-            android:exported="true"
-            android:targetActivity=".MainActivity" android:name=".FifthActivity">
+                android:enabled="true"
+                android:icon="@drawable/ic_orange"
+                android:exported="true"
+                android:targetActivity=".MainActivity" android:name=".ForthActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

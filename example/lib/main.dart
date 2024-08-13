@@ -62,6 +62,7 @@ class _MyAppState extends State<MyApp> {
                           children: [
                             TextButton(onPressed: () {
                               _activties[index].onChangeActivtiyLogo() ;
+                              Navigator.pop(context);
                             }, child: Text("OK")) ,
                             TextButton(onPressed: () => Navigator.pop(context), child: Text("Cancel")) ,
                           ],
