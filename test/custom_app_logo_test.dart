@@ -24,6 +24,6 @@ void main() {
     MockCustomAppLogoPlatform fakePlatform = MockCustomAppLogoPlatform();
     CustomAppLogoPlatform.instance = fakePlatform;
 
-    expect(await customAppLogoPlugin.getPlatformVersion(), '42');
+    expect(await customAppLogoPlugin.getActivities(), isNotEmpty);
   });
 }
