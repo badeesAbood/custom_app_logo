@@ -19,7 +19,7 @@ dependencies:
 1. add your xml icon to the android/main/res/ ... folder 
 2. add  a new ```<activity-alias/> ```
 3. add your icon to the  added ```<activity-alias/> ```
-```yaml
+```xml
   <activity
                 android:icon="@drawable/ic_yellow"
                 android:name=".MainActivity"
@@ -80,7 +80,7 @@ so you just call the CallBack function and the logo would be changed
 
 ## Example
 
-<video width="640" height="480" controls>
+<video autoplay width="640" height="480" controls>
   <source src="https://github.com/badeesAbood/custom_app_logo/blob/master/package_assets/untitled.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>

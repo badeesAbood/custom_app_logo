@@ -1,10 +1,8 @@
 import 'package:custom_app_logo/activitiesInofResult.dart';
 import 'package:flutter/services.dart';
 
-import 'custom_app_logo_platform_interface.dart';
-
 /// An implementation of [CustomAppLogoPlatform] that uses method channels.
-class MethodChannelCustomAppLogo extends CustomAppLogoPlatform {
+class MethodChannelCustomAppLogo  {
   static const MethodChannel _channel = MethodChannel('my_plugin');
 
   /// [getActivityInfo] gets the activities and it aliases from the manifest file

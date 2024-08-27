@@ -1,7 +1,7 @@
 name: custom_app_logo
 description: "a plugin to that uses native functionality to change app logo and ic launcher dynamically for android"
 version: 0.0.1+3
-homepage:
+author: https://github.com/badeesAbood
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
+
 
 dev_dependencies:
   flutter_test:

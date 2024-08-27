@@ -1,8 +1,6 @@
 import 'package:custom_app_logo/activityModel.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:custom_app_logo/custom_app_logo.dart';
 
 void main() {
